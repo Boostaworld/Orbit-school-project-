@@ -110,4 +110,24 @@ This is the working prototype code. All future React/Next.js iterations must rep
         renderScheduleInputs();renderTasks();updateClassStatus();
     </script>
 </body>
-</html>
+</html>```
+
+3. IMPLEMENTATION ROADMAP
+I need you to help me transition this to a scalable stack.
+Selected Stack:
+Frontend: Next.js (App Router), TypeScript, Tailwind CSS.
+Backend/DB: Supabase (PostgreSQL + Auth + Realtime).
+State: Zustand.
+Icons: Lucide-React.
+Phase 1 Execution (Immediate Goal):
+Convert the single-file HTML above into a structured Next.js project.
+components/BellTimer.tsx (Logic for period calculation).
+components/TaskCard.tsx (Visual component for tasks).
+hooks/useOrbitStore.ts (Zustand store for state).
+4. DESIGN GUIDELINES (UI/UX)
+Theme: "Dark Mode Space Glass."
+Colors: Slate 900 Background. Cyan/Blue accents for primary actions. Purple for "Network/Social".
+Feedback: Do not ask user to refresh. Use Optimistic UI updates. Confetti on success is mandatory.
+Responsiveness: Must work perfectly on mobile (students use phones in class).
+ACTION:
+Please acknowledge you have received the context and are ready to continue acting as the Lead Developer for project Orbit.
