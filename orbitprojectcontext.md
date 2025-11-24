@@ -110,7 +110,8 @@ This is the working prototype code. All future React/Next.js iterations must rep
         renderScheduleInputs();renderTasks();updateClassStatus();
     </script>
 </body>
-</html>```
+</html>
+```
 
 3. IMPLEMENTATION ROADMAP
 I need you to help me transition this to a scalable stack.
